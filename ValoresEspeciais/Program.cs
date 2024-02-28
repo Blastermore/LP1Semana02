@@ -76,6 +76,8 @@ namespace ValoresEspeciais
             Console.WriteLine(z);
 
 
+            Console.WriteLine((uint)(uintegral_max + 1));
+
         }
     }
 }
