@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography.X509Certificates;
 
 namespace ValoresEspeciais
 {
@@ -65,6 +66,15 @@ namespace ValoresEspeciais
             char chr_min = char.MinValue;
             Console.WriteLine($"Character max value is: {chr_max}");
             Console.WriteLine($"Character min value is: {chr_min}");
+
+            double x = double.PositiveInfinity;
+            double y = double.NegativeInfinity;
+            float z = float.NaN;
+
+            Console.WriteLine(x);
+            Console.WriteLine(y);
+            Console.WriteLine(z);
+
 
         }
     }
