@@ -55,7 +55,7 @@ namespace ChatGPTZero
                 }
                 else
                 {
-                    response = "I don't understand. can you repeat it?";
+                    response = "I don't understand. Can you repeat it?";
                     Console.WriteLine(response);
                 }
             }
